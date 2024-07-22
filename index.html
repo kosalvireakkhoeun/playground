@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
-      <link rel="stylesheet" href="./css/main.css" />
-   </head>
-   <body class="bg-white">
-      <h1>hi</h1>
-   </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="bg-white cec-popup--width-500">
+    <div>
+      <div
+        v-for="item in length"
+        :key="item"
+        class="cec-card"
+        :class="{'cec-mt-4': item > 1}"
+      >
+        <div class="cec-card__header cec-card__header--sm">
+          <skeleton-item
+            class="cec-user-profile"
+            radius=""
+            :rounded="true"
+          ></skeleton-item>
+          <div class="d-flex flex-column w-100 cec-pl-2">
+            <skeleton-item
+              class="w-60 w-sm-70 cec-mt-2"
+              height="sm"
+              radius="lg"
+            ></skeleton-item>
+            <skeleton-item
+              class="w-35 cec-my-2"
+              height="sm"
+              radius="lg"
+            ></skeleton-item>
+          </div>
+        </div>
+        <div class="cec-card__body cec-card__body--sm cec-pt-0">
+          <skeleton-item
+            class="w-60a w-sm-90"
+            height="md"
+            radius="lg"
+          ></skeleton-item>
+          <skeleton-item
+            class="cec-mt-4"
+            height="sm"
+            radius="lg"
+          ></skeleton-item>
+          <skeleton-item
+            class="cec-mt-2"
+            height="sm"
+            radius="lg"
+          ></skeleton-item>
+          <skeleton-item
+            class="cec-mt-2"
+            height="sm"
+            radius="lg"
+          ></skeleton-item>
+          <skeleton-item
+            class="w-40 w-sm-60 cec-mt-2"
+            height="sm"
+            radius="lg"
+          ></skeleton-item>
+          <div class="d-flex justify-content-between cec-mt-4">
+            <div class="d-flex w-100">
+              <skeleton-item
+                class="min-width-40 cec-mr-4"
+                height="ml"
+                radius="lg"
+              ></skeleton-item>
+              <skeleton-item
+                class="min-width-40 cec-mr-4"
+                height="ml"
+                radius="lg"
+              ></skeleton-item>
+              <skeleton-item
+                class="min-width-40"
+                height="ml"
+                radius="lg"
+              ></skeleton-item>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
