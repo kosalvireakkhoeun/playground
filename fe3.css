@@ -12182,176 +12182,170 @@ svg.kh-text-warning svg,
 .kh-left-3xl {
   left: var(--space-size-3xl);
 }
-:root {
-  --color-black: #1c293b;
-  --color-white: #ffffff;
-  --color-blue-100: #bde2eb;
-  --color-blue-300: #95d1df;
-  --color-blue-700: #339bb2;
-  --color-blue-800: #28798b;
-  --color-blue-900: #242a37;
-  --color-gray-100: #f7f8f9;
-  --color-gray-200: #edeeef;
-  --color-gray-300: #e3e5e7;
-  --color-gray-400: #d0d4d8;
-  --color-gray-700: #8a8c8e;
-  --color-gray-800: #757779;
-  --color-gray-900: #444648;
-  --color-green-100: #b7d799;
-  --color-green-500: #4b9a00;
-  --color-green-700: #417505;
-  --color-red-100: #f0aeae;
-  --color-red-500: #d93434;
-  --color-red-700: #b92323;
-  --color-yellow-100: #fefdb8;
-  --color-yellow-300: #eeed85;
-  --color-yellow-700: #dfc619;
+:root{
+    --color-black: #1c293b;
+    --color-white: #ffffff;
+    --color-blue-100: #bde2eb;
+    --color-blue-300: #95d1df;
+    --color-blue-700: #339bb2;
+    --color-blue-800: #28798b;
+    --color-blue-900: #242a37;
+    --color-gray-100: #f7f8f9;
+    --color-gray-200: #edeeef;
+    --color-gray-300: #e3e5e7;
+    --color-gray-400: #d0d4d8;
+    --color-gray-700: #8a8c8e;
+    --color-gray-800: #757779;
+    --color-gray-900: #444648;
+    --color-green-100: #b7d799;
+    --color-green-500: #4b9a00;
+    --color-green-700: #417505;
+    --color-red-100: #f0aeae;
+    --color-red-500: #d93434;
+    --color-red-700: #b92323;
+    --color-yellow-100: #fefdb8;
+    --color-yellow-300: #eeed85;
+    --color-yellow-700: #dfc619
 }
-:root {
-  --bg-body: var(--color-white);
-  --bg-secondary: var(--color-gray-100);
-  --bg-tertiary: var(--color-gray-200);
-  --bg-hover: var(--color-gray-300);
-  --bg-active: var(--color-gray-300);
-  --bg-selected: var(--color-gray-200);
-  --bg-disabled: var(--color-gray-200);
-  --bg-gray: var(--color-gray-700);
-  --bg-contrast: var(--color-gray-900);
-  --bg-black: var(--color-black);
-  --bg-slideshow: var(--color-blue-900);
-  --bg-primary-light: var(--color-blue-100);
-  --bg-primary: var(--color-blue-700);
-  --bg-primary-dark: var(--color-blue-800);
-  --bg-danger-light: var(--color-red-100);
-  --bg-danger: var(--color-red-500);
-  --bg-danger-dark: var(--color-red-700);
-  --bg-warning-light: var(--color-yellow-100);
-  --bg-warning: var(--color-yellow-300);
-  --bg-warning-dark: var(--color-yellow-700);
-  --bg-success-light: var(--color-green-100);
-  --bg-success: var(--color-green-500);
-  --bg-success-dark: var(--color-green-700);
-  --bg-transparent: transparent;
-  --border-color: var(--color-gray-300);
-  --border-input: var(--color-gray-400);
-  --border-primary: var(--color-blue-700);
-  --border-danger: var(--color-red-500);
-  --border-warning: var(--color-yellow-300);
-  --text-body: var(--color-gray-900);
-  --text-secondary: var(--color-gray-800);
-  --text-tertiary: var(--color-gray-700);
-  --text-primary: var(--color-blue-700);
-  --text-danger: var(--color-red-500);
-  --text-link: var(--color-blue-700);
-  --text-success: var(--color-green-500);
-  --text-contrast: var(--color-white);
-  --text-warning: var(--color-yellow-700);
-  --overlay-white: rgba(250, 250, 250, 0.8);
-  --overlay-black: rgba(0, 0, 0, 0.5);
-  --overlay-blue: rgba(51, 155, 178, 0.3);
-  --overlay-white-gradient: linear-gradient(
-    180deg,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  --btn-default-color: var(--text-body);
-  --btn-default-border-color: var(--border-color);
-  --btn-default-hover-color: var(--text-body);
-  --btn-default-hover-bg: var(--bg-hover);
-  --btn-default-active-color: var(--text-body);
-  --btn-default-active-bg: var(--bg-active);
-  --btn-primary-color: var(--text-contrast);
-  --btn-primary-bg: var(--bg-primary);
-  --btn-primary-border-color: var(--border-primary);
-  --btn-primary-hover-color: var(--text-contrast);
-  --btn-primary-hover-bg: var(--bg-primary-dark);
-  --btn-primary-active-color: var(--text-contrast);
-  --btn-primary-active-bg: var(--bg-primary-dark);
-  --btn-outline-color: var(--text-primary);
-  --btn-outline-bg: transparent;
-  --btn-outline-border-color: var(--border-primary);
-  --btn-outline-hover-color: var(--text-contrast);
-  --btn-outline-hover-bg: var(--bg-primary);
-  --btn-outline-active-color: var(--text-contrast);
-  --btn-outline-active-bg: var(--bg-primary-dark);
-  --btn-danger-color: var(--text-contrast);
-  --btn-danger-bg: var(--bg-danger);
-  --btn-danger-border-color: var(--border-danger);
-  --btn-danger-hover-color: var(--text-contrast);
-  --btn-danger-hover-bg: var(--bg-danger-dark);
-  --btn-danger-active-color: var(--text-contrast);
-  --btn-danger-active-bg: var(--bg-danger-dark);
+:root{
+    --bg-body: var(--color-white);
+    --bg-secondary: var(--color-gray-100);
+    --bg-tertiary: var(--color-gray-200);
+    --bg-hover: var(--color-gray-300);
+    --bg-active: var(--color-gray-300);
+    --bg-selected: var(--color-gray-200);
+    --bg-disabled: var(--color-gray-200);
+    --bg-gray: var(--color-gray-700);
+    --bg-contrast: var(--color-gray-900);
+    --bg-black: var(--color-black);
+    --bg-slideshow: var(--color-blue-900);
+    --bg-primary-light: var(--color-blue-100);
+    --bg-primary: var(--color-blue-700);
+    --bg-primary-dark: var(--color-blue-800);
+    --bg-danger-light: var(--color-red-100);
+    --bg-danger: var(--color-red-500);
+    --bg-danger-dark: var(--color-red-700);
+    --bg-warning-light: var(--color-yellow-100);
+    --bg-warning: var(--color-yellow-300);
+    --bg-warning-dark: var(--color-yellow-700);
+    --bg-success-light: var(--color-green-100);
+    --bg-success: var(--color-green-500);
+    --bg-success-dark: var(--color-green-700);
+    --bg-transparent: transparent;
+    --border-color: var(--color-gray-300);
+    --border-input: var(--color-gray-400);
+    --border-primary: var(--color-blue-700);
+    --border-danger: var(--color-red-500);
+    --border-warning: var(--color-yellow-300);
+    --text-body: var(--color-gray-900);
+    --text-secondary: var(--color-gray-800);
+    --text-tertiary: var(--color-gray-700);
+    --text-primary: var(--color-blue-700);
+    --text-danger: var(--color-red-500);
+    --text-link: var(--color-blue-700);
+    --text-success: var(--color-green-500);
+    --text-contrast: var(--color-white);
+    --text-warning: var(--color-yellow-700);
+    --overlay-white: rgba(250, 250, 250, .8);
+    --overlay-black: rgba(0, 0, 0, .5);
+    --overlay-blue: rgba(51, 155, 178, .3);
+    --overlay-white-gradient: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+    --btn-default-color: var(--text-body);
+    --btn-default-border-color: var(--border-color);
+    --btn-default-hover-color: var(--text-body);
+    --btn-default-hover-bg: var(--bg-hover);
+    --btn-default-active-color: var(--text-body);
+    --btn-default-active-bg: var(--bg-active);
+    --btn-primary-color: var(--text-contrast);
+    --btn-primary-bg: var(--bg-primary);
+    --btn-primary-border-color: var(--border-primary);
+    --btn-primary-hover-color: var(--text-contrast);
+    --btn-primary-hover-bg: var(--bg-primary-dark);
+    --btn-primary-active-color: var(--text-contrast);
+    --btn-primary-active-bg: var(--bg-primary-dark);
+    --btn-outline-color: var(--text-primary);
+    --btn-outline-bg: transparent;
+    --btn-outline-border-color: var(--border-primary);
+    --btn-outline-hover-color: var(--text-contrast);
+    --btn-outline-hover-bg: var(--bg-primary);
+    --btn-outline-active-color: var(--text-contrast);
+    --btn-outline-active-bg: var(--bg-primary-dark);
+    --btn-danger-color: var(--text-contrast);
+    --btn-danger-bg: var(--bg-danger);
+    --btn-danger-border-color: var(--border-danger);
+    --btn-danger-hover-color: var(--text-contrast);
+    --btn-danger-hover-bg: var(--bg-danger-dark);
+    --btn-danger-active-color: var(--text-contrast);
+    --btn-danger-active-bg: var(--bg-danger-dark)
 }
-:root {
-  --font-family-sans-serif: Lato, Battambang, sans-serif;
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
-  --font-weight-light: 300;
-  --font-weight-normal: 400;
-  --font-weight-bold: 700;
-  --font-size-body: 0.875rem;
-  --font-size-small: 0.75rem;
-  --font-size-tiny: 0.625rem;
-  --font-size-lead: 1rem;
-  --font-size-h1: 1.75rem;
-  --font-size-h2: 1.5rem;
-  --font-size-h3: 1.25rem;
-  --font-size-h4: 1.125rem;
-  --font-size-h5: 1rem;
-  --font-size-h6: 0.875rem;
-  --font-size-display1: 2.5rem;
-  --font-size-display2: 2rem;
-  --input-placeholder-style: italic;
+:root{
+    --font-family-sans-serif: Lato, Battambang, sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-size-body: .875rem;
+    --font-size-small: .75rem;
+    --font-size-tiny: .625rem;
+    --font-size-lead: 1rem;
+    --font-size-h1: 1.75rem;
+    --font-size-h2: 1.5rem;
+    --font-size-h3: 1.25rem;
+    --font-size-h4: 1.125rem;
+    --font-size-h5: 1rem;
+    --font-size-h6: .875rem;
+    --font-size-display1: 2.5rem;
+    --font-size-display2: 2rem;
+    --input-placeholder-style: italic
 }
-:root {
-  --icon-size-sm: 1rem;
-  --icon-size-md: 1.5rem;
-  --icon-size-lg: 2rem;
-  --icon-size-xl: 2.5rem;
-  --icon-size-2xl: 3rem;
-  --icon-size-3xl: 4rem;
-  --avatar-size-2xs: 1rem;
-  --avatar-size-xs: 1.5rem;
-  --avatar-size-sm: 2rem;
-  --avatar-size-md: 2.5rem;
-  --avatar-size-lg: 3rem;
-  --avatar-size-xl: 4rem;
-  --avatar-size-2xl: 6rem;
-  --avatar-size-3xl: 8rem;
-  --avatar-size-4xl: 10rem;
+:root{
+    --icon-size-xs: 1rem;
+    --icon-size-sm: 1.25rem;
+    --icon-size-md: 1.5rem;
+    --icon-size-lg: 2rem;
+    --icon-size-xl: 2.5rem;
+    --icon-size-2xl: 3rem;
+    --icon-size-3xl: 4rem;
+    --avatar-size-2xs: 1rem;
+    --avatar-size-xs: 1.5rem;
+    --avatar-size-sm: 2rem;
+    --avatar-size-md: 2.5rem;
+    --avatar-size-lg: 3rem;
+    --avatar-size-xl: 4rem;
+    --avatar-size-2xl: 6rem;
+    --avatar-size-3xl: 8rem;
+    --avatar-size-4xl: 10rem
 }
-:root {
-  --border-size: 1px;
-  --border-dashed: var(--border-size) dashed var(--border-color);
-  --border-dotted: var(--border-size) dotted var(--border-color);
-  --border-line: var(--border-size) solid var(--border-color);
-  --border-none: unset;
-  --border-radius-none: var(--space-size-none);
-  --border-radius-md: var(--space-size-2xs);
-  --border-radius-lg: var(--space-size-xs);
-  --border-radius-pill: 6.25rem;
-  --border-radius-full: 22.5rem;
-  --box-shadow-sm: 0 calc(var(--space-size-2xs) / 2) var(--space-size-2xs) 0
-    rgba(0, 0, 0, 0.2);
-  --box-shadow-md: 0 var(--space-size-sm) var(--space-size-lg) 0
-    rgba(75, 75, 75, 0.2);
+:root{
+    --border-size: 1px;
+    --border-dashed: var(--border-size) dashed var(--border-color);
+    --border-dotted: var(--border-size) dotted var(--border-color);
+    --border-line: var(--border-size) solid var(--border-color);
+    --border-none: unset;
+    --border-radius-none: var(--space-size-none);
+    --border-radius-md: var(--space-size-2xs);
+    --border-radius-lg: var(--space-size-xs);
+    --border-radius-pill: 6.25rem;
+    --border-radius-full: 22.5rem;
+    --box-shadow-sm: 0 calc(var(--space-size-2xs) / 2) var(--space-size-2xs) 0 rgba(0, 0, 0, .2);
+    --box-shadow-md: 0 var(--space-size-sm) var(--space-size-lg) 0 rgba(75, 75, 75, .2)
 }
-:root {
-  --space-size-none: 0;
-  --space-size-3xs: 0.125rem;
-  --space-size-2xs: 0.25rem;
-  --space-size-xs: 0.5rem;
-  --space-size-sm: 0.75rem;
-  --space-size-md: 1rem;
-  --space-size-lg: 1.25rem;
-  --space-size-xl: 1.5rem;
-  --space-size-2xl: 2rem;
-  --space-size-3xl: 4rem;
-  --space-size-tiny: var(--space-size-2xs);
-  --space-size-internal: var(--space-size-xs);
-  --space-size-slim: var(--space-size-sm);
-  --space-size-standard: var(--space-size-lg);
-  --space-size-spacious: var(--space-size-2xl);
-  --input-space-sm: var(--space-size-2xs);
-  --input-space-md: var(--space-size-xs);
+:root{
+    --space-size-none: 0;
+    --space-size-3xs: .125rem;
+    --space-size-2xs: .25rem;
+    --space-size-xs: .5rem;
+    --space-size-sm: .75rem;
+    --space-size-md: 1rem;
+    --space-size-lg: 1.25rem;
+    --space-size-xl: 1.5rem;
+    --space-size-2xl: 2rem;
+    --space-size-3xl: 4rem;
+    --space-size-tiny: var(--space-size-2xs);
+    --space-size-internal: var(--space-size-xs);
+    --space-size-slim: var(--space-size-sm)
+    --space-size-standard: var(--space-size-lg);
+    --space-size-spacious: var(--space-size-2xl);
+    --input-space-sm: var(--space-size-2xs);
+    --input-space-md: var(--space-size-xs)
 }
