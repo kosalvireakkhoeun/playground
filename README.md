@@ -12,14 +12,14 @@
 │   │   ├── ...                                   
 │   │   ├── cop
 │   │   │   ├── learner
-│   │   │   |   ├── folder-family... extends lms/learner/my-learning                       
+│   │   │   |   ├── folder-family...                          # extends lms/learner/my-learning                       
 │   │   ├── lms                 
 │   │   │   ├── admin 
 │   │   │   ├── learner
 │   │   │   |   ├── class-activity
-│   │   │   |   |   ├── folder-family...
+│   │   │   |   |   ├── folder-family...                      # able to use for learner in cop and org lms
 │   │   │   |   ├── class-detail
-│   │   │   |   |   ├── folder-family...
+│   │   │   |   |   ├── folder-family...                      # able to use for learner in cop and org lms 
 │   │   │   |   ├── course-detail
 │   │   │   |   |   ├── folder-family...
 │   │   │   |   ├── my-learning
