@@ -1,3 +1,4 @@
+class diagram https://drive.google.com/file/d/1f0P_wkFjw5J9RrKS-dgi708kyUpO7b0h/view?usp=sharing
 
 ```
 .cw-automated-test
