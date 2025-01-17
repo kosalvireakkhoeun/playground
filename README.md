@@ -15,6 +15,8 @@ class diagram https://drive.google.com/file/d/1f0P_wkFjw5J9RrKS-dgi708kyUpO7b0h/
 │   │   │   ├── learner
 │   │   │   |   ├── folder-family...                          # extends lms/learner/my-learning                       
 │   │   ├── lms                 
+│   │   │   ├── activity 
+│   │   │   |   ├── folder-family...                          # base classacitivty for learner and admin
 │   │   │   ├── admin 
 │   │   │   ├── learner
 │   │   │   |   ├── class-activity
